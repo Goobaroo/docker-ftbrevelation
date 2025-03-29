@@ -3,6 +3,12 @@
 FROM openjdk:8u312-jre-buster
 
 LABEL version="3.7.0"
+LABEL homepage.group=Minecraft
+LABEL homepage.name="FTB Revelation"
+LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/7/revelation.png"
+LABEL homepage.widget.type=minecraft
+LABEL homepage.widget.url=FTB-Revelation:25565
+
 
 RUN apt-get update && apt-get install -y curl && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
