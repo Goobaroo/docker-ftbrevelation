@@ -5,7 +5,7 @@ FROM openjdk:8u312-jre-buster
 LABEL version="3.7.0"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Revelation"
-LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/7/revelation.png"
+LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/55/5580d403cda892c044d771fa2f1da6295478883f70ae3075e085a9ba317f4e76.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://FTB-Revelation:25565
 
